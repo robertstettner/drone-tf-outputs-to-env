@@ -8,6 +8,7 @@ gobuild_args: -ldflags "-s -w -X main.revision=$(git rev-parse HEAD)" -a
 env:
   - TERRAFORM_VERSION=0.11.14
   - TERRAFORM_VERSION=0.12.8
+  - TERRAFORM_VERSION=0.12.9
   - TERRAFORM_VERSION=0.12.10
   - TERRAFORM_VERSION=0.12.11
 
